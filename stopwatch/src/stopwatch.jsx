@@ -63,7 +63,6 @@ const Stopwatch = () => {
           width: "100%",
           marginTop: "1rem",
           padding: "1rem",
-        //   hoverable: "true",
         }}
       >
         <button onClick={handleStart}>{timerOn ? "Stop" : "Start"}</button>
