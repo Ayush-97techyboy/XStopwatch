@@ -53,7 +53,7 @@ const Stopwatch = () => {
     >
       <h4>Stopwatch</h4>
 
-      <h4>{formatTime(timeInSec)}</h4>
+      <h4>Time: {formatTime(timeInSec)}</h4>
 
       <div
         style={{
